@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body { 
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.61111em;
+    margin: 1em 3rem 1em 3rem;
+    text-align: justify;
+}
+
+h1, h2 {
+    margin: 1em 3rem 1em 3rem;
+}
+
+main {
+    padding-top: 100px;
+}
+
+/* Navigation section */
+nav {
+    text-align: right;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: 3px solid navy;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: white;
+    z-index: 100;
+}
+
+.logo {
+    width: 65px;
+    float: left;
+    margin-left: 10px;;
+}
+
+.navButton {
+    color:navy; 
+    margin-right: 20px; 
+    margin-top: 5px;
+    padding:15px;
+    padding-bottom: 8px;
+    display: inline-block;
+    border-bottom: 2px solid navy;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navButtonSel {
+    color:navy;
+    margin-right: 20px; 
+    background-color: #dddddd; 
+    border-radius: 15px 15px 0 0;
+    margin-top: 5px;
+    padding:15px;
+    padding-bottom: 8px;
+    display: inline-block;
+    border-bottom: 2px solid navy;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    background-color: #dddddd;
+    border-radius: 15px 15px 0 0;
+    color: navy;
+    transition: 0.3s;
+}
+
+/* Footer section */
+footer{
+    background-color: navy;
+    padding: 2rem 0 20rem 0;
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footerHeading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footerHeading h3 {
+    margin-bottom: 2rem;
+}
+
+.footerHeading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footerHeading a:hover {
+    color: #ababab;
+    transition: 0.3s ease-out;
+}
+
+.footerEmailForm h3 {
+    margin-bottom: 2rem;
+}
+
+#footerEmail {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footerEmailBtn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #383d3d;
+    font-size: 1rem;
+}
+
+#footerEmailBtn:hover {
+    cursor: pointer;
+    background-color: #ababab;
+    transition: all 0.4s ease-out;
+}
